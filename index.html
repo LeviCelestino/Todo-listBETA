@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando JSON</title>
+    <style>
+        
+        body{
+            font-family: monospace;
+        }
+        .logo{
+            margin: 0;
+            font-size: 3em;
+            border-radius: 30px;
+            text-align: center;
+            color: white;
+            background-color: red;
+            padding: 20px;
+            
+        }
+        input{
+            margin-left: 5vh;
+            margin-top: 20px;
+            height: 25px;
+            width: 80%;
+            background-color: antiquewhite;
+            margin-bottom: 20px;
+        }
+        button{
+            margin: 0;
+            position: relative;
+            cursor: grab;
+            color: white;
+            background-color: blue;
+
+            
+        }
+        #btn{
+            position: relative;
+            right: 3px;
+            padding: 6px;
+        }
+        .buttom1{
+            position: absolute;
+            background-color: rgb(21, 216, 102);
+            left: 250px;
+            top: 3px
+        }
+        .buttom2{
+            position: absolute;
+            left: 275px;
+            top: 3px;
+            background-color: red;
+            float: inline-end;
+        }
+        h1{
+            word-wrap: break-word;
+            margin: 0;
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: grey;
+            color: rgb(255, 255, 255);
+        }
+        
+    </style>
+</head>
+<body>
+    
+        <div id="container">
+            <h2 class="logo">TODO-LIST</h2>
+                <input id = 'ler' placeholder="digite uma tarefa">
+                <button id = 'btn' onclick="adicionarArray()" > Click</button>
+                <ul id = 'ul'>
+                </ul>
+        </div>
+   
+<script src="./app.js"></script>
+</body>
+</html>
